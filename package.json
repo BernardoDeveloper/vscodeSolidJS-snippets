@@ -1,7 +1,7 @@
 {
   "name": "solidjs",
   "description": "solidJS snippets inspired by the rocketseat snippet",
-  "version": "3.0.2",
+  "version": "1.0.1",
   "displayName": "SoldiJS",
   "publisher": "bernardogualberto",
   "icon": "images/logo.png",
