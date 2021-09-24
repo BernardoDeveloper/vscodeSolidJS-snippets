@@ -1,7 +1,7 @@
 {
   "name": "solidjs",
-  "description": "solidJS snippets inspired by the rocketseat snippet",
-  "version": "1.0.1",
+  "description": "SolidJS snippets inspired by the rocketseatReactJS",
+  "version": "3.0.7",
   "displayName": "SoldiJS",
   "publisher": "bernardogualberto",
   "icon": "images/logo.png",
@@ -24,19 +24,19 @@
     "snippets": [
       {
         "language": "javascriptreact",
-        "path": "./snippets/snippets.json"
+        "path": "./snippets/snippet.json"
       },
       {
         "language": "javascript",
-        "path": "./snippets/snippets.json"
+        "path": "./snippets/snippet.json"
       },
       {
         "language": "typescript",
-        "path": "./snippets/snippets.json"
+        "path": "./snippets/snippet.json"
       },
       {
         "language": "typescriptreact",
-        "path": "./snippets/snippets.json"
+        "path": "./snippets/snippet.json"
       }
     ]
   },

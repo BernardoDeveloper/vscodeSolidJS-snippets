@@ -16,6 +16,27 @@
     ],
     "description": "Solid - create const component"
   },
+  "Solid const types component": {
+    "prefix": "sat",
+    "body": [
+      "import { Component, ComponentProps } from 'solid-js';",
+      "\r",
+      "interface ${TM_FILENAME_BASE}Props extends ComponentProps<any> {",
+      "\t// add props here",
+      "}",
+      "\r",
+      "const ${TM_FILENAME_BASE}: Component<${TM_FILENAME_BASE}Props> = (props: ${TM_FILENAME_BASE}Props) => {",
+      "\treturn (",
+      "\t\t<div>",
+      "\t\t\t<h2>${TM_FILENAME_BASE}</h2>",
+      "\t\t</div>",
+      "\t)",
+      "}",
+      "\r",
+      "export default ${TM_FILENAME_BASE};"
+    ],
+    "description": "Solid - create const types component"
+  },
   "Solid function component": {
     "prefix": "sfc",
     "body": [
@@ -31,17 +52,17 @@
     ],
     "description": "Solid - create function component"
   },
-  "Solid function typescript component": {
+  "Solid function types component": {
     "prefix": "sft",
     "body": [
       "interface ${TM_FILENAME_BASE}Props {",
-      "\t${TM_FILENAME_BASE}: Element",
+      "\t// add props here",
       "}",
       "\r",
       "function ${TM_FILENAME_BASE}(props: ${TM_FILENAME_BASE}Props) {",
       "\treturn (",
       "\t\t<div>",
-      "\t\t\t<h2>{props.${TM_FILENAME_BASE}}</h2>",
+      "\t\t\t<h2>${TM_FILENAME_BASE}</h2>",
       "\t\t</div>",
       "\t)",
       "}",

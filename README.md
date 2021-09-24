@@ -10,7 +10,7 @@
 
 This project was based on rocketseat's reactJS snippet, it aims to increase the productivity of those who use the solidJS framework
 
-## Linguagens Suportadas
+## Suported Languages
 
 - JavaScript (.js)
 - TypeScript (.ts)
@@ -19,8 +19,9 @@ This project was based on rocketseat's reactJS snippet, it aims to increase the 
 
 ## Snippets
 
-|  Kitten | Content                                    |
-| ------: | ------------------------------------------ |
-| `sac →` | Create a **const** component               |
-| `sfc →` | Create **functional** component            |
-| `sft →` | Create typescript **functional** component |
+|  Kitten | Content                               |
+| ------: | ------------------------------------- |
+| `sac →` | Create a **const** component          |
+| `sat →` | Create a types **const** component    |
+| `sfc →` | Create **functional** component       |
+| `sft →` | Create types **functional** component |
