@@ -1,23 +1,10 @@
 {
-  "name": "solid-js",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "publisher": "veacci"
-}
-{
   "name": "solidjs",
   "description": "solidJS snippets inspired by the rocketseat snippet",
   "version": "3.0.2",
   "displayName": "SoldiJS",
-  "publisher": "bernardo",
-  "icon": "images/logo.svg",
+  "publisher": "bernardogualberto",
+  "icon": "images/logo.png",
   "galleryBanner": {
     "color": "#4670A5",
     "theme": "dark"
@@ -25,7 +12,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Rocketseat/rocketseat-vscode-reactjs-snippets"
+    "url": "https://github.com/BernardoDeveloper/vscodeSolidJS-snippets"
   },
   "engines": {
     "vscode": "0.10.x"
@@ -45,11 +32,11 @@
       },
       {
         "language": "typescript",
-        "path": "./snippets/snippets-ts.json"
+        "path": "./snippets/snippets.json"
       },
       {
         "language": "typescriptreact",
-        "path": "./snippets/snippets-ts.json"
+        "path": "./snippets/snippets.json"
       }
     ]
   },
